@@ -1,10 +1,16 @@
-print("Welcome to the rollercoaster!")
-height = int(input("What is your height in cm? "))
+# 🚨 Don't change the code below 👇
+number = int(input("Which number do you want to check? "))
+# 🚨 Don't change the code above 👆
 
-if height >= 120:
-  print("You can ride the rollercoaster")
+#Write your code below this line 👇
+
+
+check = number % 2
+half = number / 2
+
+if check >0:
+    print("This is an odd number.")
 else:
-  print("Sorry, you have to grow taller before you can ride")
-
-# == Equal to
-# != Not equal to
+    print("This is an even number.")
+if number % 2 == 0:
+    print("this number's other divisible number is", int(half)) 
